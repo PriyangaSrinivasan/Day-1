@@ -1,0 +1,27 @@
+Objects in javascript:
+           1. whatever we see like cars, bikes, laptops, and so on. Objects in everyday life have properties
+             and "method" actions. For example, a fan is an Object with properties such as making a color and actions 
+             it can perform such as cooling rooms and controlling speed. 
+           2.Data type and forms the building blocks for modern javascript.
+             These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+           3.Properties are characteristics of an object such as its name and value. Objects let you group related data together and split code in logical pieces.
+             We have primitive values and reference values.
+                  a.Number
+                  b.Boolean
+                  c.Null
+                  d.Undefined
+                  e.String and Symbol 
+             These are primitive values
+           4. You can use objects differently depending on their properties and methods.
+             the object has key-value pairs in a javascript object associating each key with a unique value.
+
+           5. Object represents a person with properties like "name", "age", "friends" and a function greet.
+             Each property becomes a key-value pair with property value. Both properties and methods are created inside the objects.
+            
+
+           6. We can add or change properties without declaring a variable. We start with our preferred name, a colon, and then your value.
+              We can create an array inside the object. 
+
+           7.object methods :object property containing a function.
+              

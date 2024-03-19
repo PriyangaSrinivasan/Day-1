@@ -1,0 +1,39 @@
+HTTP1.1:
+    1.HTTP(Hybertext Transfer Protocal)It was developed in 1997.Whenever a client creates a request
+       and send a TCP(Transmission Control protocol)connection created between client and server.
+
+    2. HOL(head of line blocking)if a request at the queue head cannot retrieve its required resources
+      it can block all requests behind it.
+
+    3. For example: Index.html, JS, and CSS file. First requests will be created for Index.html TCP
+                  connection gets blocked till the response is received. Once it receives the response and 
+                  sends another request for the JS file. It will receive a response and send another request for a CSS file.
+                  It will receive a response. 
+
+    4.Http1.1 sends messages as plain text to encode and transmit data. Most of the time a client's initial response
+     in return for an HTTP GET request is not the fully loaded page.
+      
+    5. Fetching additional resources from the server requires that the client send repeated request
+      breaks or form the TCP connection repeatedly for them. This process will consume a lot of time.
+    
+    6. It compresses data by itself so you can't compress data.
+
+Http2:
+    1. It was developed in 2015.Http2 the blocking time reduced. It is achieved by using the same TCP connection efficiently
+      for all the requests with the help of multiplexing.
+
+    2. It allows multiplexing so multiple requests and responses can be sent over a single connection.
+
+    3.Http2 also allows us to compress the HTTP headers using its compression format called HPack push is one of the
+      important features.
+
+    4. It works on the binary protocol as a series of binary codes encode and transmit data rather than plain text.
+      SRP2(Secure Remote Protocol 2)establishes a secure connection between a client and a server. 
+
+    5.Http2 is designed to be more efficient and performant than http1.1.This is because Http2 includes several 
+      features like multiplexing, binary, protocol, and header compression.
+
+    6. Now Http2 has its support in all major browsers.             
+      
+
+         
